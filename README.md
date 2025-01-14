@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Decentralized File Storage System  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project implements a **Decentralized File Storage System** to securely store and manage images in a transparent and efficient manner. The system features an interactive frontend built using **ReactJS** and a robust backend developed with **Solidity**, leveraging blockchain technology to ensure data integrity.  
 
-## Available Scripts
+## How It Works  
+- **Image Upload and Storage**:  
+  Users upload images through the ReactJS interface. The images are then stored on the **IPFS (InterPlanetary File System)**, a decentralized peer-to-peer network.  
 
-In the project directory, you can run:
+- **Hash Generation and Storage**:  
+  Each uploaded image generates a unique **hash code**, which is stored on the blockchain using **Solidity**. This hash ensures transparency and traceability.  
 
-### `npm start`
+- **Retrieval of Images**:  
+  The system allows users to access stored images and their associated information anytime, ensuring reliability and decentralization.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Integration with Pinata**:  
+  **Pinata** is used to simplify the interaction with IPFS, ensuring seamless image uploads and management.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used  
+1. **ReactJS**: For creating an interactive and user-friendly frontend interface.  
+2. **Solidity**: To implement the backend logic on the Ethereum blockchain.  
+3. **IPFS**: A decentralized storage solution for efficient file storage and retrieval.  
+4. **Ether.js**: To connect the frontend with the Ethereum blockchain and handle smart contract interactions.  
+5. **Hardhat**: For testing, deployment, and development of the Solidity smart contracts.  
 
-### `npm test`
+This project demonstrates the power of decentralization by integrating blockchain and peer-to-peer networks to ensure secure, transparent, and efficient file storage.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![1](https://github.com/user-attachments/assets/29090f9f-bfd9-44b1-8db6-68c7c7bde3e9)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
