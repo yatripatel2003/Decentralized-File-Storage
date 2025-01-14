@@ -25,4 +25,11 @@ This project implements a **Decentralized File Storage System** to securely stor
 This project demonstrates the power of decentralization by integrating blockchain and peer-to-peer networks to ensure secure, transparent, and efficient file storage.  
 
 ![1](https://github.com/user-attachments/assets/29090f9f-bfd9-44b1-8db6-68c7c7bde3e9)
+![1](https://github.com/user-attachments/assets/2723e9a3-3504-4eb3-a799-96eebd70e325)
+![4](https://github.com/user-attachments/assets/0aff97ea-6621-449e-93a8-980caa9c8fd6)
+![6](https://github.com/user-attachments/assets/b924aa44-e146-4a3d-83f0-889bd9220399)
+![9](https://github.com/user-attachments/assets/3027b0c1-5bae-46e9-93d0-713c141ea3cf)
+![5](https://github.com/user-attachments/assets/c5b19283-1fba-48c5-8601-2d78e49ed3b1)
+![7](https://github.com/user-attachments/assets/ad4ccda2-a719-4086-bb86-e3bf28cd16b3)
+
 
